@@ -1,0 +1,4 @@
+AuthName "downloads"
+AuthType Basic
+AuthUserFile /home/mb/bash/htfile
+Require user mb

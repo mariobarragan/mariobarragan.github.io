@@ -9,14 +9,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Heroic Features - Start Bootstrap Template</title>
+    <title>mario's website</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/heroic-features.css" rel="stylesheet">
-		    <link href="css/mbcustom.css" rel="stylesheet">
+    <link href="css/business-casual.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,9 +31,79 @@
 </head>
 
 <body>
+	
+    <div class="brand">Mario's Website</div>
+    <div class="address-bar"></div>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+ 
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12 text-center">
+                    <div id="carousel-example-generic" class="carousel slide">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators hidden-xs">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <!--<div class="carousel-inner">
+                            <div class="item active">
+                                <img class="img-responsive img-full" src="img/slide-1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-3.jpg" alt="">
+                            </div>
+                        </div>--!>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
+                    <h2 class="brand-before">
+                        <small>about me and cyber security</small>
+                    </h2>
+                    <h1 class="brand-name"></h1>
+                    <!--<hr class="tagline-divider">-->
+                    <h2>
+                        <small>By
+                            <strong>Mario Barragan</strong>
+                        </small>
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>  
+                    <p>I am someone who enjoys working with computers and people. I also try to help people with their problems because I don't like rejecting a request for help.
+                    I am a responsible person and I don't blame others for my actions.During this school year I have learned so much about computer science. I know how to build a computer to knowing what its parts do. I have made my own website and helped make the star wars battleship arduino project. All of those thing that i have done inspired me to want to learn more so i started taking courses on command line, javascript, html and css.
+                    I  even know every layer in the osi model and even got experience soldering wires.
+					Some of the challenges i had was learning how to use port 3000 and using express server on it with authentication.</p>                   
+                    <hr>
+                   <!-- <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt=""> -->
+                    <hr class="visible-xs">
+                   
+					</hr>
+                </div>
+            </div>
+        </div>
+
+   <nav class="navbar navbar-default" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -40,20 +113,66 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">dis websitel</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#about.html">About</a>
+                        <a href="https://github.com/mariobarragan" target="_blank_">git-hub website</a>
+                    </li>
+                    <li> <a href="http://10.183.2.10:3000"target="_blank_">port 3000</a></li>
+                    <li>
+                        <a href="/drupal" target="_blank_">drupal</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+						<a href="/pma" target="_blank_">php my admin</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+						<a href="/downloads" target="_blank_"> downloads</a>
                     </li>
+                    <li>
+						<a href="/login" target="_blank_"> login</a>
+                    </li>
+                    <li> 
+                    <a href="/logs" target="_blank_"> logs </a>
+                    </li>
+                    <li>
+                    <a href="https://sites.google.com/a/tritechsc.org/mariob/"target="_blank_">google site</a>
+                    </li>
+                     <li class="dropdown">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+                    
+                    
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Websites <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://10.183.2.7"target="_blank">David's Server</a></li>
+            <li><a href="http://10.183.2.8"target="_blank">Garrett's Server</a></li>
+            <li><a href="http://10.183.2.9"target="_blank">colton's Server</a></li>
+            <li><a href="http://10.183.2.2"target="_blank">Raul's Server</a></li>
+            <li><a href="http://10.183.2.3"target="_blank">Tristan's Server</a></li>
+            <li><a href="http://10.183.2.4"target="_blank">Romeo's Server</a></li>
+            <li><a href="http://10.183.2.5"target="_blank">Adrian's Server</a></li>
+            <li><a href="http://10.183.2.11"target="_blank">Kyle's Server</a></li>
+            <li><a href="http://10.183.2.12"target="_blank">Mitch's Server</a></li>
+            <li><a href="http://10.183.2.13"target="_blank">Will's Server</a></li>
+            <li><a href="http://10.183.2.14"target="_blank">Tyler's Server</a></li>
+            <li><a href="http://10.183.2.15"target="_blank">Richard's Server</a></li>
+            <li><a href="http://10.183.2.17"target="_blank">Mikey's Server</a></li>
+            <li><a href="http://10.183.2.18"target="_blank">Chase's Server</a></li>
+            <li><a href="http://10.183.2.19"target="_blank">Christian's Server</a></li>
+            <li><a href="http://10.183.1.26"target="_blank">Mr. Coleman's Server</a></li>
+                </li>
+            </ul>
+        </div>
+
+            
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -61,98 +180,15 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Page Content -->
-    <div class="container">
-
-        <!-- Jumbotron Header -->
-        <header class="jumbotron hero-spacer">
-            <h1>A Warm Welcome!</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
-            <p><a class="btn btn-primary btn-large">Call to action!</a>
-            </p>
-        </header>
-
-        <hr>
-
-        <!-- Title -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h3>Latest Features</h3>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Page Features -->
-        <div class="row text-center">
-
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
-                    <div class="caption">
-                        <h3>Feature Label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <p>
-                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
-                    <div class="caption">
-                        <h3>Feature Label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <p>
-                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
-                    <div class="caption">
-                        <h3>Feature Label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <p>
-                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
-                    <div class="caption">
-                        <h3>Feature Label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <p>
-                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Footer -->
-        <footer>
+    <footer>
+        <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                <div class="col-lg-12 text-center">
+                    <p>contact me at barmario21@gmail.com</p>
                 </div>
             </div>
-        </footer>
-
-    </div>
-    <!-- /.container -->
+        </div>
+    </footer>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -160,6 +196,12 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
 </body>
 
 </html>

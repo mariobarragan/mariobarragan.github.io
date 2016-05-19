@@ -1,0 +1,2 @@
+GRANT ALL PRIVILEGES ON stream.* TO 'uomo'@'localhost' IDENTIFIED BY 'gp1101';	
+GRANT ALL PRIVILEGES ON stream.* TO 'uomo'@'%' IDENTIFIED BY 'gp1101';

@@ -1,0 +1,28 @@
+osi model
+A - application
+P - presentation
+S - session	
+T - TRANSPORT
+N - NETWORK
+D - DATA LINK
+P - PHYSICAL
+
+
+HISTORY OF TCP/IP
+The TCP/IP protocols were initially developed as part of the research network developed by the United States Defense Advanced Research Projects Agency (DARPA or ARPA).
+ Initially, this fledgling network, called the ARPAnet, was designed to use a number of protocols that had been adapted from existing technologies.
+ However, they all had flaws or limitations, either in concept or in practical matters such as capacity, when used on the ARPAnet. The developers of the new network recognized that trying to use
+ these existing protocols might eventually lead to problems as the ARPAnet scaled to a larger size and was adapted for newer uses and applications.
+ 
+In 1973, development of a full-fledged system of internetworking protocols for the ARPAnet began. 
+ in early versions of this technology, there was only one core protocol: TCP.
+ TCP also use stand for Transmission Control Program.
+ The first version of this predecessor of modern TCP was written in 1973.
+
+
+WHAT ABOUT THE INTERNET WHEN DID THAT START
+
+3 sources
+http://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13769-5.html
+https://msdn.microsoft.com/en-us/library/windows/hardware/ff571073%28v=vs.85%29.aspx
+http://searchnetworking.techtarget.com/definition/OSI
